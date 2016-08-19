@@ -68,14 +68,14 @@ namespace AutoBuddy.MyChampLogic
 
         private void Game_OnTick(System.EventArgs args)
         {
-           /* if (!R.IsReady()) return;
+            if (!R.IsReady()) return;
             AIHeroClient vic =
                 EntityManager.Heroes.Enemies.FirstOrDefault(
                     v => v.IsVisible() &&
                          v.Health < AutoWalker.p.GetSpellDamage(v, SpellSlot.R) && v.Distance(AutoWalker.p) > 700 &&
                          AutoWalker.p.Distance(v) < 2500);
             if (vic == null) return;
-            R.Cast(vic);*/
+            R.Cast(vic);
         }
     }
 }
